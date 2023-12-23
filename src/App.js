@@ -44,7 +44,7 @@ function App() {
                 <Route path="/IWC/:id" element={<IWCDeatils data={data} />}></Route>
                 <Route path="/Omega" element={<Omega data={data} />}></Route>
                 <Route path="/Omega/:id" element={<OmegaDetails data={data} />}></Route>
-                <Route path="/DisplayAll/:id" element={<DisplayAll displayAll={displayAll} />}></Route>
+                {/* <Route path="/DisplayAll/:id" element={<DisplayAll displayAll={displayAll} />}></Route> */}
             </Routes>
         </div>
     );
